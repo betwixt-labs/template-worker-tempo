@@ -18,6 +18,15 @@ To create a `my-project` directory using this template, run:
 $ wrangler generate my-project https://github.com/betwixt-labs/template-worker-tempo
 ```
 
+If you wish to generate code from your schemas run:
+```sh
+$ npm run build:schemas
+# or
+$ yarn build:schemas
+# or
+$ pnpm run build:schemas
+```
+
 Before publishing your code you need to edit `wrangler.toml` file and add your Cloudflare `account_id` - more information about configuring and publishing your code can be found [in the documentation](https://developers.cloudflare.com/workers/learning/getting-started).
 
 Once you are ready, you can publish your code by running the following command:
