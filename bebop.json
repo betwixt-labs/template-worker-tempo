@@ -1,0 +1,11 @@
+{
+	"include": ["./src/schemas/**/*.bop"],
+	"exclude": ["node_modules", "dist"],
+	"generators": [
+		{
+			"alias": "ts",
+			"outFile": "./src/services/services.gen.ts",
+            "services": "server"
+		}
+	]
+}

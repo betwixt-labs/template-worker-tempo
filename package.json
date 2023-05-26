@@ -1,0 +1,21 @@
+{
+	"name": "template-worker-tempo",
+	"version": "0.0.0",
+	"private": true,
+	"scripts": {
+		"deploy": "wrangler deploy src/index.ts",
+		"dev": "wrangler dev src/index.ts",
+        "build:schemas": "bebopc",
+		"test": "vitest"
+	},
+	"devDependencies": {
+		"@cloudflare/workers-types": "^3.0.0",
+		"vitest": "^0.31.0",
+		"wrangler": "^3.0.0",
+		"bebop-tools": "^2.7.0"
+	},
+	"dependencies": {
+		"bebop": "^2.7.0",
+		"@tempojs/cloudflare-worker-router": "^0.0.1"
+	}
+}
