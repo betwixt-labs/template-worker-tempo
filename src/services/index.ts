@@ -1,7 +1,4 @@
-import { GreeterService } from "./greeter";
-import { TempoServiceRegistry } from "./services.gen";
+import { GreeterService } from './greeter';
+import { TempoServiceRegistry } from './services.gen';
 
-export {
-    GreeterService,
-    TempoServiceRegistry
-}
+export { GreeterService, TempoServiceRegistry };
