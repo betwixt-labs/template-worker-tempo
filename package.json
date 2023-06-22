@@ -16,6 +16,6 @@
 	},
 	"dependencies": {
 		"bebop": "^2.7.1",
-		"@tempojs/cloudflare-worker-router": "^0.0.4"
+		"@tempojs/cloudflare-worker-router": "^0.0.5"
 	}
 }
