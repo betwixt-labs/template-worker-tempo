@@ -12,10 +12,10 @@
 		"@cloudflare/workers-types": "^3.0.0",
 		"vitest": "^0.31.0",
 		"wrangler": "^3.0.0",
-		"bebop-tools": "^2.8.5"
+		"bebop-tools": "^3.0.4"
 	},
 	"dependencies": {
-		"bebop": "^2.8.5",
-		"@tempojs/cloudflare-worker-router": "^0.0.10"
+		"bebop": "^3.0.4",
+		"@tempojs/cloudflare-worker-router": "^0.0.12"
 	}
 }
