@@ -5,14 +5,14 @@
 	"scripts": {
 		"deploy": "wrangler deploy src/index.ts",
 		"dev": "wrangler dev src/index.ts",
-        "build:schemas": "bebopc",
+     "build:schemas": "bebopc build",
 		"test": "vitest"
 	},
 	"devDependencies": {
 		"@cloudflare/workers-types": "^3.0.0",
 		"vitest": "^0.31.0",
 		"wrangler": "^3.0.0",
-		"bebop-tools": "^3.0.4"
+		"bebop-tools": "^3.0.5"
 	},
 	"dependencies": {
 		"bebop": "^3.0.4",
